@@ -11,6 +11,7 @@ const sendEmail = async (recipient) => {
       <div style="font-family: Arial, sans-serif; color: #112F3A; font-size: 1.2rem;">
         <h1 style="font-size: 1.7rem; color: #5E17DD;">Gentle Reminder!</h1>
         <p>Hello <strong>${recipient.name}</strong>,</p>
+        <h1>${webinarDetails.time_to_go}</h1>
         <p>We’re thrilled to have you join our upcoming webinar: <strong>${webinarDetails.theme}</strong>.</p>
         <p><strong>Details:</strong></p>
         <ul style="list-style-type: none; padding: 0;">
