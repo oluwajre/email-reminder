@@ -20,9 +20,9 @@ const sendEmail = async (recipient) => {
           <li style="margin-bottom: 0.5em;"><strong>Time:</strong> ${webinarDetails.time}</li>
           <li style="margin-bottom: 0.5em;"><strong>Platform:</strong> ${webinarDetails.platform.name}</li>
         </ul>
-        <p style="text-align: center; margin-top: 1rem;">Click below to join our <strong>official WhatsApp group</strong> for more information:</p>
+        <p style="text-align: center; margin-top: 1rem; margin-bottom: 1rem">Click the button below to join and schedule the webinar on our <strong>Telegram Channel</strong>.</p>
         <div style="text-align: center; margin-top: 1rem;">
-            <a href="${webinarDetails.whatsappLink}" style="padding: 10px 20px; background-color: #198754; color: white; text-decoration: none; border-radius: 5px;">Join Now</a>
+            <a href="${webinarDetails.platform.link}" style="padding: 10px 20px; background-color: #366ae3; color: white; text-decoration: none; border-radius: 5px; font-size: 1.2rem;">Join Telegram</a>
         </div>
         
       </div>

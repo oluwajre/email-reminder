@@ -1,9 +1,12 @@
 const webinarDetails = {
     theme: 'Scale Up Series 3.8',
     topic: 'Proven Strategies for Revenue and Profitability Growth in Private Elementary and Secondary School Business.',
-    date: 'December 02, 2024',
-    time: '2:00 pm',
-    platform: { name: 'Online' },
+    date: 'December 05, 2024',
+    time: '7:00 pm',
+    platform: { 
+        name: 'Telegram',
+        link: 'https://t.me/+IdA8tYqXLz81ZTk0'
+     },
     duration: '2 - 3 hours',
     whatsappLink: 'https://chat.whatsapp.com/LUW9txtbiOa2oTk9VlEvrp',
     time_to_go: {
